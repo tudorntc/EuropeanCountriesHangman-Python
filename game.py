@@ -39,7 +39,7 @@ def play_hangman():
         
         # Check if the guess is a new letter
         if guess in correct_guesses or guess in letters:
-            print('You already guessed that letter.')
+            print('Congratulations! This letter is in the word.')
             continue
         
         # Check if the guess is in the word
